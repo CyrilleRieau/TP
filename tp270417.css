@@ -1,9 +1,6 @@
 header {
     background-color: blue;
 }
-header section {
-    width : 70%;
-}
 nav {
     background-color: red;
 }
@@ -28,8 +25,8 @@ ul {
     border : 1px solid yellow;
     display:flex;
     justify-content: space-around;
-    width: 70%;
-    margin:auto;
+    max-width: 70%;
+    margin:0 auto;
     padding:0px;
 }
 body {
@@ -38,23 +35,23 @@ body {
 }
 .menuheader {
     border : 1px solid yellow;
-    width: 70%;
+    max-width: 70%;
     display:flex;
     justify-content:space-around;
     align-items: center;
-    margin:auto;
+    margin:0 auto;
 }
 .contenu {
     border : 1px solid yellow;
-    width:70%;
-    margin : auto;
+    max-width:70%;
+    margin : 0 auto;
 }
 .lienfooter {
     border : 1px solid yellow;
     display:flex;
     justify-content: space-around;
-    width: 70%;
-    margin:auto;
+    max-width: 70%;
+    margin: 0 auto;
 }
 li {
     margin: 0px;
